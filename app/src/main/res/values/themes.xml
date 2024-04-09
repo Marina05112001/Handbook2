@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Handbook" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+
+
+        <!--скрытие статус бара (строка со временем, зарядкой, временем, интернетом и тд)-->
+<!--        <item name="android:windowFullscreen">true</item>-->
+
+        <!--скрытие заголовка самого приложения (2 строки)-->
+<!--        <item name="windowActionBar">false</item>-->
+<!--        <item name="windowNoTitle">true</item>-->
+    </style>
+
+    <style name="Theme.Handbook" parent="Base.Theme.Handbook" />
+</resources>

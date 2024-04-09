@@ -1,0 +1,16 @@
+<resources>
+    <string name="handbook_car">Справочник</string>
+    <string name="body_car">Кузов</string>
+    <string name="engine">Двигатель</string>
+    <string name="transmission">Трансмиссия</string>
+    <string name="electrical">Электрооборудование</string>
+    <string name="cooling">Система охлаждения</string>
+    <string name="chassis">Ходовая часть </string>
+    <string name="steering">Рулевое управление</string>
+    <string name="brake_system">Тормозная система</string>
+    <string name="heating_conditioning">Отопление/кондиционирование</string>
+    <string name="salon">Салон</string>
+    <string name="disk">Диски</string>
+    <string name="additional_equipment">Доп. оборудование</string>
+    <string name="razdelitel_category">Категория 2</string>
+</resources>

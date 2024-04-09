@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn = "navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:title="@string/body_car"
+            android:id="@+id/id_body_car"
+            android:icon="@drawable/body_car"/>
+        <item
+            android:title="@string/engine"
+            android:id="@+id/id_engine"
+            android:icon="@drawable/engine"/>
+        <item
+            android:title="@string/disk"
+            android:id="@+id/id_disk"
+            android:icon="@drawable/disk"/>
+        <item
+            android:title="@string/transmission"
+            android:id="@+id/id_transmission"
+            android:icon="@drawable/transmission"/>
+        <item
+            android:title="@string/electrical"
+            android:id="@+id/id_electrical"
+            android:icon="@drawable/electrical"/>
+        <item
+            android:title="@string/cooling"
+            android:id="@+id/id_cooling"
+            android:icon="@drawable/cooling"/>
+        <item
+            android:title="@string/chassis"
+            android:id="@+id/id_chassis"
+            android:icon="@drawable/chassis"/>
+        <item
+            android:title="@string/steering"
+            android:id="@+id/id_steering"
+            android:icon="@drawable/steering"/>
+        <item
+            android:title="@string/brake_system"
+            android:id="@+id/id_brake_system"
+            android:icon="@drawable/brake_system"/>
+        <item
+            android:title="@string/heating_conditioning"
+            android:id="@+id/id_heating_conditioning"
+            android:icon="@drawable/heating_conditioning"/>
+        <item
+            android:title="@string/salon"
+            android:id="@+id/id_salon"
+            android:icon="@drawable/salon"/>
+        <item
+            android:title="@string/additional_equipment"
+            android:id="@+id/id_аdditional_equipment"
+            android:icon="@drawable/additional_equipment"/>
+    </group>
+
+    <group>
+        <!--пример разделения категории. Линия с заголовком-->
+        <!--переменные также добавляем в string.xml-->
+       <item android:title="@string/razdelitel_category">
+            <menu>
+                <item
+                    android:title="@string/salon"
+                    android:id="@+id/id_salon2"
+                    android:icon="@drawable/salon"/>
+           </menu>
+        </item>
+    </group>
+</menu>
