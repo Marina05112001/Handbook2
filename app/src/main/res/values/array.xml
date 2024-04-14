@@ -30,10 +30,10 @@
     </string-array>
     <array name="body_car_image">
         <item>@drawable/body_car</item>
-        <item>@layout/header_main_menu</item>
+        <item>@drawable/body_car</item>
         <item>@drawable/logo</item>
         <item>@drawable/body_car</item>
-        <item>@string/body_car</item>
+        <item>@drawable/body_car</item>
         <item>@drawable/body_car</item>
         <item>@drawable/body_car</item>
         <item>@drawable/disk</item>
@@ -54,8 +54,8 @@
         <item>475473563</item>
     </string-array>
     <array name="engine_image">
-        <item>@string/engine</item>
-        <item>@drawable/logo</item>
-        <item>@string/engine</item>
+        <item>@drawable/engine</item>
+        <item>@drawable/engine</item>
+        <item>@drawable/engine</item>
     </array>
 </resources>
